@@ -1,0 +1,21 @@
+{
+  "name": "modulo-1-ejerciciosbackend-basicos6",
+  "version": "1.0.0",
+  "description": "***Objetivo:** Practicar con el uso básico de npm (Node Package Manager) en el desarrollo de aplicaciones Node.js. \r Esto incluye aprender a instalar y gestionar paquetes, crear scripts personalizados.***",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "start-server": "node index.js",
+    "start-dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "lodash": "^4.17.21",
+    "nodemon": "^3.1.0"
+  }
+}
